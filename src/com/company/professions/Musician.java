@@ -8,8 +8,8 @@ public class Musician extends Human{
     private String instrument;
     private int experience;
 
-    public Musician(Date dateOfBirth, int age, String name, String familyName, String adress, String ID, String education, String instrument, int experience){
-        super(dateOfBirth, age, name, familyName, adress, ID);
+    public Musician(int age, String name, String familyName, String adress, String ID, String education, String instrument, int experience){
+        super(age, name, familyName, adress, ID);
         this.education = education;
         this.instrument = instrument;
         this.experience = experience;

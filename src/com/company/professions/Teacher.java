@@ -8,9 +8,11 @@ public class Teacher extends Human{
     private int category;
     private int experience;
 
-    public Teacher(Date dateOfBirth, int age, String name, String familyName, String adress, String ID) {
-        super(dateOfBirth, age, name, familyName, adress, ID);
-
+    public Teacher(int age, String name, String familyName, String adress, String ID, int category, int experience, String[] education) {
+        super(age, name, familyName, adress, ID);
+        this.category = category;
+        this.experience = experience;
+        this.education = education;
     }
 
 

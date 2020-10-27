@@ -6,8 +6,8 @@ public class Translator extends Human{
     private String[] education;
     private String[] languages;
 
-    public Translator(Date dateOfBirth, int age, String name, String familyName, String adress, String ID, String[] education, String[] languages) {
-        super(dateOfBirth, age, name, familyName, adress, ID);
+    public Translator(int age, String name, String familyName, String adress, String ID, String[] education, String[] languages) {
+        super( age, name, familyName, adress, ID);
         this.education = education;
         this.languages = languages;
     }

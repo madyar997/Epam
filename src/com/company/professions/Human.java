@@ -3,15 +3,13 @@ package com.company.professions;
 import java.util.Date;
 
 public class Human {
-    private Date dateOfBirth;
     private int age;
     private String name;
     private String familyName;
     private String adress;
     private String ID;
 
-    public Human(Date dateOfBirth, int age, String name, String familyName, String adress, String ID) {
-        this.dateOfBirth = dateOfBirth;
+    public Human(int age, String name, String familyName, String adress, String ID) {
         this.age = age;
         this.name = name;
         this.familyName = familyName;
@@ -27,14 +25,6 @@ public class Human {
     public void setID(String ID) {
         this.ID = ID;
     }
-
-    public void setDateOfBirth(Date dateOfBirth){
-        this.dateOfBirth = dateOfBirth;
-    }
-    public Date getDateOfBirth(){
-        return dateOfBirth;
-    }
-
     public int getAge() {
         return age;
     }
